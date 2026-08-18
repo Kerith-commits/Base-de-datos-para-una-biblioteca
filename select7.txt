@@ -1,5 +1,0 @@
-Muestra las existencias de los libros ordenadas de mayor a menor cantidad (descendente).
-
-SELECT Existencia_id, Libro_id, Cantidad 
-FROM Existencias 
-ORDER BY Cantidad DESC;
