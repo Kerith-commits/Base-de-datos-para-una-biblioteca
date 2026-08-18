@@ -1,0 +1,9 @@
+Una subconsulta es una consulta dentro de otra. En este ejemplo, primero calculamos el promedio de existencias de todos los libros, y luego seleccionamos aquellos libros cuya cantidad de existencias supera ese promedio.
+
+SELECT Titulo, Estado 
+FROM Libros 
+WHERE Libro_id IN (
+    SELECT Libro_id 
+    FROM Existencias 
+    WHERE Cantidad > (SELECT AVG(Cantidad) FROM Existencias)
+);

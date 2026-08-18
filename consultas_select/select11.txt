@@ -1,0 +1,6 @@
+Suma las existencias por cada libro y filtra para mostrar únicamente aquellos cuya cantidad total de stock sea mayor a 2. El HAVING actúa como un WHERE pero exclusivo para datos agrupados.
+
+SELECT Libro_id, SUM(Cantidad) AS Total_Existencias 
+FROM Existencias 
+GROUP BY Libro_id 
+HAVING SUM(Cantidad) > 2;
