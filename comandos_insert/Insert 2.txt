@@ -1,0 +1,4 @@
+INSERT INTO Libros (Titulo, Estado, Autor_id, Editorial_id) VALUES 
+('Cien años de soledad', 'Disponible', 1, 3),
+('La casa de los espíritus', 'Disponible', 2, 2),
+('La ciudad y los perros', 'Prestado', 3, 1);

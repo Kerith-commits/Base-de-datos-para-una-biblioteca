@@ -1,0 +1,11 @@
+-- Insertar Editoriales
+INSERT INTO Editoriales (Nombre) VALUES 
+('Editorial Planeta'), 
+('Penguin Random House'), 
+('Alfaguara');
+
+-- Insertar Autores
+INSERT INTO Autores (Nombre) VALUES 
+('Gabriel García Márquez'), 
+('Isabel Allende'), 
+('Mario Vargas Llosa');

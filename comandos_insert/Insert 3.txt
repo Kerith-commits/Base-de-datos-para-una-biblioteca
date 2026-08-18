@@ -1,0 +1,16 @@
+-- Insertar Categorías
+INSERT INTO Categorias (Nombre, Libro_id) VALUES 
+('Realismo Mágico', 1),
+('Literatura Latinoamericana', 2),
+('Novela', 3);
+
+-- Insertar Préstamos
+INSERT INTO Prestamos (Estado, Libro_id) VALUES 
+('Devuelto', 1), 
+('Activo', 3);
+
+-- Insertar Existencias
+INSERT INTO Existencias (Cantidad, Libro_id) VALUES 
+(5, 1), 
+(3, 2), 
+(2, 3);
