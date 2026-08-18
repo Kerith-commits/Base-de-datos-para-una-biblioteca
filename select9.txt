@@ -1,5 +1,0 @@
-Muestra todas las editoriales, vinculándolas con sus respectivos libros. Si alguna editorial no tuviera libros asociados, aparecería igualmente en el listado.
-
-SELECT Editoriales.Nombre AS Editorial, Libros.Titulo 
-FROM Libros 
-RIGHT JOIN Editoriales ON Libros.Editorial_id = Editoriales.Editorial_id;
