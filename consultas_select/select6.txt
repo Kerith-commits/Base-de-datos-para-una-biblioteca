@@ -1,0 +1,4 @@
+Filtra los libros que se encuentran disponibles y que además fueron escritos por los autores con ID 1 o 2.
+
+SELECT * FROM Libros 
+WHERE Estado = 'Disponible' AND Autor_id IN (1, 2);
