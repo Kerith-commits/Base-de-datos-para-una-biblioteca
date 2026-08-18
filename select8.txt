@@ -1,5 +1,0 @@
-Muestra todos los autores, y si tienen un libro registrado en la base de datos, muestra el título. (Si hubiera un autor sin libros, su nombre aparecería de todos modos con un valor nulo en el título).
-
-SELECT Autores.Nombre AS Autor, Libros.Titulo 
-FROM Autores 
-LEFT JOIN Libros ON Autores.Autor_id = Libros.Autor_id;
