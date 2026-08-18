@@ -1,0 +1,10 @@
+unirlas para ver el nombre del autor y de la editorial junto al título del libro, en lugar de ver solo números de ID.
+
+SELECT 
+    Libros.Titulo, 
+    Autores.Nombre AS Autor, 
+    Editoriales.Nombre AS Editorial,
+    Libros.Estado
+FROM Libros
+INNER JOIN Autores ON Libros.Autor_id = Autores.Autor_id
+INNER JOIN Editoriales ON Libros.Editorial_id = Editoriales.Editorial_id;
