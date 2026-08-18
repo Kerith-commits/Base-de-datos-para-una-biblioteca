@@ -1,0 +1,5 @@
+Agrupa los libros por su Estado actual y cuenta cuántos libros hay en cada categoría de estado (Disponible o Prestado).
+
+SELECT Estado, COUNT(*) AS Total_Libros 
+FROM Libros 
+GROUP BY Estado;
